@@ -8,6 +8,11 @@
   pointer-events: none;
 }
 
+.character-box {
+  display: flex;
+  flex-wrap: wrap;
+  height: 10px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

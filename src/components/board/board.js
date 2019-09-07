@@ -131,6 +131,7 @@ export default class Board extends Component {
   render(){
       return (
           <div className="Board">
+            <h2>SUPER<br/>MEMORY<br />BROS.!</h2>
               <h3>Try to click on each Smash Bros. Chatacter once. Each time you click, the board will shuffle!<br/>
               Try to get the high score! Clicking on the same character will end the game!</h3>
               <ScoreDisplay
