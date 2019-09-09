@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Animated} from "react-animated-css";
+import { Animated } from "react-animated-css";
 import CharacterBox from "./characterBox";
 import ScoreDisplay from "./scoreDisplay";
 
@@ -93,7 +93,8 @@ export default class Board extends Component {
 
     this.state = {
       user: {
-        score: 0
+        score: 0,
+        topScore: 0
       },
       characters: shuffleArray(initalChars)
     };
