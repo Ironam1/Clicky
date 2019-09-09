@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Clicky/static/css/main.2d8640c6.chunk.css",
-    "main.js": "/Clicky/static/js/main.c012697a.chunk.js",
-    "main.js.map": "/Clicky/static/js/main.c012697a.chunk.js.map",
-    "runtime~main.js": "/Clicky/static/js/runtime~main.f550e08a.js",
-    "runtime~main.js.map": "/Clicky/static/js/runtime~main.f550e08a.js.map",
-    "static/js/2.87582209.chunk.js": "/Clicky/static/js/2.87582209.chunk.js",
-    "static/js/2.87582209.chunk.js.map": "/Clicky/static/js/2.87582209.chunk.js.map",
-    "index.html": "/Clicky/index.html",
-    "precache-manifest.1f957cdfe414b3ba842444c3744bd37d.js": "/Clicky/precache-manifest.1f957cdfe414b3ba842444c3744bd37d.js",
-    "service-worker.js": "/Clicky/service-worker.js",
-    "static/css/main.2d8640c6.chunk.css.map": "/Clicky/static/css/main.2d8640c6.chunk.css.map"
+    "main.css": "/Ironam1/Clicky.git/static/css/main.2d8640c6.chunk.css",
+    "main.js": "/Ironam1/Clicky.git/static/js/main.609480ed.chunk.js",
+    "main.js.map": "/Ironam1/Clicky.git/static/js/main.609480ed.chunk.js.map",
+    "runtime~main.js": "/Ironam1/Clicky.git/static/js/runtime~main.d492c724.js",
+    "runtime~main.js.map": "/Ironam1/Clicky.git/static/js/runtime~main.d492c724.js.map",
+    "static/js/2.87582209.chunk.js": "/Ironam1/Clicky.git/static/js/2.87582209.chunk.js",
+    "static/js/2.87582209.chunk.js.map": "/Ironam1/Clicky.git/static/js/2.87582209.chunk.js.map",
+    "index.html": "/Ironam1/Clicky.git/index.html",
+    "precache-manifest.c3ce4bc75021ee60e4c8227962968693.js": "/Ironam1/Clicky.git/precache-manifest.c3ce4bc75021ee60e4c8227962968693.js",
+    "service-worker.js": "/Ironam1/Clicky.git/service-worker.js",
+    "static/css/main.2d8640c6.chunk.css.map": "/Ironam1/Clicky.git/static/css/main.2d8640c6.chunk.css.map"
   }
 }
