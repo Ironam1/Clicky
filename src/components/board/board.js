@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { Animated } from "react-animated-css";
 import CharacterBox from "./characterBox";
 import ScoreDisplay from "./scoreDisplay";
 
@@ -121,25 +121,44 @@ export default class Board extends Component {
           })
         ),
         user: {
-            ...this.state.user,
-            score: 0
+          ...this.state.user,
+          score: 0
         }
       });
     }
-  }
+  };
 
-  render(){
-      return (
-          <div className="Board">
-            <h2>SUPER<br/>MEMORY<br />BROS.!</h2>
-              <h3>Try to click on each Smash Bros. Chatacter once. Each time you click, the board will shuffle!<br/>
-              Try to get the high score! Clicking on the same character will end the game!</h3>
-              <ScoreDisplay
-              score={this.state.user.score} />
-              <CharacterBox
-              characters={this.state.characters}
-              onCharacterClick={this.onCharacterClick} />
+  render() {
+    return (
+      <div className="Board">
+        <Animated
+          animationIn="bounceInLeft"
+          animationOut="fadeOut"
+          isVisible={true}
+        >
+          <div>
+            <h2>
+              SUPER
+              <br />
+              MEMORY
+              <br />
+              BROS.!
+            </h2>
           </div>
-      )
+        </Animated>
+        <h3>
+          Try to click on each Smash Bros. Chatacter once. Each time you click,
+          the board will shuffle!
+          <br />
+          Try to get the high score! Clicking on the same character will end the
+          game!
+        </h3>
+        <ScoreDisplay score={this.state.user.score} />
+        <CharacterBox
+          characters={this.state.characters}
+          onCharacterClick={this.onCharacterClick}
+        />
+      </div>
+    );
   }
 }
