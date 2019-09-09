@@ -148,6 +148,7 @@ export default class Board extends Component {
           </div>
         </Animated>
         <h3>
+          Now
           Try to click on each Smash Bros. Chatacter once. Each time you click,
           the board will shuffle!
           <br />
