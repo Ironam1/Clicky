@@ -11,7 +11,11 @@
 .character-box {
   display: flex;
   flex-wrap: wrap;
-  height: 10px;
+  
+}
+
+.img{
+  height: 150px;
 }
 .App-header {
   background-color: #282c34;
