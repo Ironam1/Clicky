@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Animated } from "react-animated-css";
+import {Animated} from "react-animated-css";
 import CharacterBox from "./characterBox";
 import ScoreDisplay from "./scoreDisplay";
 
