@@ -111,7 +111,8 @@ export default class Board extends Component {
         ),
         user: {
           ...this.state.user,
-          score: this.state.user.score + 1
+          score: this.state.user.score + 1,
+          topScore: this.state.user.topScore + 1
         }
       });
     } else {
@@ -148,14 +149,16 @@ export default class Board extends Component {
           </div>
         </Animated>
         <h3>
-          Now
-          Try to click on each Smash Bros. Chatacter once. Each time you click,
-          the board will shuffle!
+          Click on each Smash Bros. Chatacter, but only once! <br /> Each time
+          you click, the board will shuffle!
           <br />
-          Try to get the high score! Clicking on the same character will end the
-          game!
+          Try to get the high score! <br />
+          Clicking on the same character will end the game!
         </h3>
-        <ScoreDisplay score={this.state.user.score} />
+        <ScoreDisplay
+          score={this.state.user.score}
+          topScore={this.state.user.topScore}
+        />
         <CharacterBox
           characters={this.state.characters}
           onCharacterClick={this.onCharacterClick}
