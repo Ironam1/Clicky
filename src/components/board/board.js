@@ -94,7 +94,8 @@ export default class Board extends Component {
     this.state = {
       user: {
         score: 0,
-        topScore: 0
+        topScore: 0,
+        newScore: 0
       },
       characters: shuffleArray(initalChars)
     };
@@ -112,7 +113,7 @@ export default class Board extends Component {
         user: {
           ...this.state.user,
           score: this.state.user.score + 1,
-          topScore: this.state.user.topScore + 1
+          newScore: this.state.user.newScore + 1
         }
       });
     } else {
@@ -129,7 +130,7 @@ export default class Board extends Component {
       });
     }
   };
-
+  
   render() {
     return (
       <div className="Board">
