@@ -1,3 +1,6 @@
+#ClickyGame
+
+This application has been deployed with github and can be found here: 
 This is a memory game application. User can click on any of the images which will randomly display on the page at start and after each click. User will score one point each time they click on an image. If the user clicks on the same image twice, the game is over. I was not able to get the Top Score counter to work properly.
 
 
