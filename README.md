@@ -12,7 +12,7 @@ I chose Super Smash Bros. for my theme. Images are randomly displayed and will c
 
 I added react-animated-css to incorporate an NPM package.
 
-For some reason that I do not know, my deployed application is a commit behind. New changes do not render.
+For some reason that I do not know, my deployed application is a commit behind. The screen shots are from my local, changedhave been pushed to the remote and deployed. New changes do not render.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
