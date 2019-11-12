@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Clicky/static/css/main.bcad2d49.chunk.css",
-    "main.js": "/Clicky/static/js/main.f9a3a96b.chunk.js",
-    "main.js.map": "/Clicky/static/js/main.f9a3a96b.chunk.js.map",
+    "main.js": "/Clicky/static/js/main.372f5854.chunk.js",
+    "main.js.map": "/Clicky/static/js/main.372f5854.chunk.js.map",
     "runtime~main.js": "/Clicky/static/js/runtime~main.f550e08a.js",
     "runtime~main.js.map": "/Clicky/static/js/runtime~main.f550e08a.js.map",
     "static/js/2.e7fc06e3.chunk.js": "/Clicky/static/js/2.e7fc06e3.chunk.js",
     "static/js/2.e7fc06e3.chunk.js.map": "/Clicky/static/js/2.e7fc06e3.chunk.js.map",
     "index.html": "/Clicky/index.html",
-    "precache-manifest.5a246a1e7563ff5ea4be710634c37e09.js": "/Clicky/precache-manifest.5a246a1e7563ff5ea4be710634c37e09.js",
+    "precache-manifest.4177a7e4ba0c525ee6622b709106e4c6.js": "/Clicky/precache-manifest.4177a7e4ba0c525ee6622b709106e4c6.js",
     "service-worker.js": "/Clicky/service-worker.js",
     "static/css/main.bcad2d49.chunk.css.map": "/Clicky/static/css/main.bcad2d49.chunk.css.map"
   }
