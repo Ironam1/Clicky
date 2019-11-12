@@ -94,8 +94,7 @@ export default class Board extends Component {
     this.state = {
       user: {
         score: 0,
-        topScore: 0,
-        newScore: 0
+        topScore: 0
       },
       characters: shuffleArray(initalChars)
     };
@@ -112,10 +111,21 @@ export default class Board extends Component {
         ),
         user: {
           ...this.state.user,
-          score: this.state.user.score + 1,
-          newScore: this.state.user.newScore + 1
+          score: this.state.user.score + 1
         }
       });
+      if (this.state.user.score >= this.state.user.topScore) {
+        this.setState({
+          user: {
+            ...this.state.user,
+            score: this.state.user.score + 1,
+            topScore: this.state.user.topScore + 1
+          }
+        });
+      }
+      if (this.state.user.topScore === 15) {
+        alert("Congratualtions! You have a fantstic memory!");
+      }
     } else {
       this.setState({
         characters: shuffleArray(
@@ -130,7 +140,7 @@ export default class Board extends Component {
       });
     }
   };
-  
+
   render() {
     return (
       <div className="Board">
@@ -156,6 +166,7 @@ export default class Board extends Component {
           Try to get the high score! <br />
           Clicking on the same character will end the game!
         </h3>
+
         <ScoreDisplay
           score={this.state.user.score}
           topScore={this.state.user.topScore}
